@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Online Registration</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <body>
+  <header>
+<div class="main-nav">
+<H3>THE CODE REVIEW</H3>
+</div>
+  </header>
+  <div class="general">
+  <H2>Sign up for our newsletter</H2>
+    <p class="detail">Get the latest news on how your code is doing right in your inbox</p>
+    <br>
+<p>
+
+  <div class="container">
+    <form id="news_contact" method="post" >
+        <fieldset form="news_contact" id="cnts">
+      <legend>Contact Information</legend><br>
+      <label for="full_name">Full Name</label><input type="text" name="full_name" value="Required" id="full_name">
+      <label for="email_address">Email Address</label><input type="text" name="email_address" value="Required" id="email_address">
+      <label for="phonenumber">Phone Number</label><input type="text" name="phonenumber" id="phonenumber">
+      <label for="streetaddress">Street Address</label><input type="text" name="streetaddress" id="streetaddress">
+      <label for="city">City</label><input type="text" name="city" id="city">
+      <label for="state">State</label>
+      <input list="states" id="state" name="states">
+      <datalist id="states">
+              <option value="Alaska">
+              <option value="Arizona">
+              <option value="California">
+              <option value="Hawaii">
+              <option value="Nevada">
+              <option value="Oregon">
+              <option value="Washington">
+      </datalist>
+      <label for="zipcode">Zip Code</label><input type="text" id="zipcode" name="zipcode">
+    </fieldset>
+        <P>
+          <fieldset form="news_contact" id="checkers">
+      <legend>Newsletter</legend><br>
+        <h4>Select the newsletters you would like to see</h4>
+      <div class="Q8 newsy"><input type="checkbox" id="html_news" name="html_news"><label for="html_news">HTML News</label></div>
+      <div class="Q9 newsy"><input type="checkbox" id="css_news" name="css_news"><label for="css_news">CSS News</label></div>
+      <div class="Q10 newsy"><input type="checkbox" id="javascript_news" name="javascript_news"><label for="javascript_news">Javascript News</label></div>
+      <h4>Newsletter format</h4>
+      <div class="Q11 newsy"><input type="radio" id="ftype" name="ftype"><label for="ftype">HTML</label></div>
+      <div class="Q12 newsy"><input type="radio" id="ftype2" name="ftype2"><label for="ftype2">Plain text</label></div>
+
+<br>
+      <label for="other">Other topics you'd like to hear about </label>
+      <div class="Q13 bidge"><textarea name="other" id="other" rows="8" cols="80"></textarea></div>
+
+      <button type="submit">Sign Up</button>
+      </fieldset>
+    </form>
+
+</div>
+</div>
+
+    <footer >
+<p class="detail">Copyright The Code Review</p>
+    </footer>
+
+  </body>
+  </html>

@@ -1,0 +1,205 @@
+/* Registration Layout*/
+header{
+  align-content: center;
+  text-align: center;
+}
+.main-nav  {
+    overflow: auto;
+    background-color: rgb(80, 80, 80);
+  padding-left: 0;
+  vertical-align: middle;
+  height: 80px;
+  color:white;
+  margin:auto;
+  text-align: center;
+}
+
+.container {
+    flex-direction:column;
+  }
+
+.detail{
+  font-style: italic;
+  color:lightgray;
+  font-size: .75rem;
+  border: none;
+  text-align: center;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+body {
+  padding:0;
+  align-content: center;
+  margin: auto;
+}
+
+p {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+  }
+
+h4 {
+  color:darkgray;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight:normal;
+}
+
+legend{
+  font-weight:bold;
+}
+
+.general {
+    width: 100%;
+    margin:auto;
+    padding:5px;
+
+}
+/* .item{
+  display:flex;
+  padding: 10px;
+  border:10px;
+  width:100%;
+  radius:2px;
+  min-height: 1rem;
+  justify-content: flex-end;
+  align-items: baseline;
+  font-style: italic;
+} */
+
+.bidge{
+  display:flex;
+  margin:0px;
+  border:0px;
+  padding:5%;
+  width:90%;
+  min-height: 1rem;
+  justify-content: center;
+}
+
+.newsy{
+  display:flex;
+  justify-content: flex-start;
+  vertical-align: middle;
+  min-height: 1em;
+}
+
+label {
+  line-height: 35px;
+  float:left;
+  font-size: .75rem;
+  font-size: 1rem;
+  font-style: normal;
+  margin-left: 1%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  min-width: 120px;
+  HEIGHT:2.5REM;
+
+}
+
+input[type="text"] {
+  float:right;
+  background-color: rgb(240, 240, 240);
+  border:none;
+  min-width: 300px;
+  width:90%;
+  HEIGHT:2.5REM;
+  border-radius: 3px;
+  font-style: italic;
+  text-align: right;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 10px;
+  padding-top:0;
+  padding-bottom: 0;
+}
+
+input[list] {
+  display:block;
+  background-color: rgb(240, 240, 240);
+  float:right;
+  border:none;
+  width:90%;
+  font-size: 1.3rem;
+  HEIGHT:2.5REM;
+  border-radius: 3px;
+  text-align: left;
+  font-weight: normal;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 10px;
+  color:lightgray;
+  font-size: .75rem;
+}
+
+input[type="radio"] {
+  HEIGHT:1.25REM;
+  margin-top: 5px;
+}
+
+input[type="checkbox"] {
+  HEIGHT:1.25REM;
+  margin-top: 5px;
+
+}
+textarea{
+  background-color: rgb(240, 240, 240);
+  border:none;
+  width: 100%;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  border:none;
+  HEIGHT:3REM;
+  width:90%;
+  background-color: #95E6D6;
+  border-radius: 3px;
+  margin: 5%;
+}
+fieldset {
+  border: none;
+}
+
+footer{
+  text-align: center;
+}
+
+input:focus {
+  background-color: lightgray;
+}
+
+textarea:focus {
+  background-color: lightgray;
+}
+
+
+@media (min-width: 768px) {
+
+.general {
+  max-width: 600px;
+}
+
+
+.container {
+    display:flex;
+    flex-direction:column;
+  }
+
+input[type="text"] {
+    max-width:250px;}
+
+input[list] {
+      max-width:300px;}
+    }
