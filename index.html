@@ -22,22 +22,21 @@
     <form id="news_contact" method="post" >
         <fieldset form="news_contact" id="cnts">
       <legend>Contact Information</legend><br>
-      <label for="full_name">Full Name</label><input type="text" name="full_name" value="Required" id="full_name">
-      <label for="email_address">Email Address</label><input type="text" name="email_address" value="Required" id="email_address">
-      <label for="phonenumber">Phone Number</label><input type="text" name="phonenumber" id="phonenumber">
+      <label for="full_name">Full Name</label><input type="text" name="full_name" placeholder="Required" id="full_name" required>
+      <label for="email_address">Email Address</label><input type="email" name="email_address" placeholder="Required" id="email_address" required>
+      <label for="phonenumber">Phone Number</label><input type="tel" name="phonenumber" id="phonenumber">
       <label for="streetaddress">Street Address</label><input type="text" name="streetaddress" id="streetaddress">
       <label for="city">City</label><input type="text" name="city" id="city">
       <label for="state">State</label>
-      <input list="states" id="state" name="states">
-      <datalist id="states">
-              <option value="Alaska">
-              <option value="Arizona">
-              <option value="California">
-              <option value="Hawaii">
-              <option value="Nevada">
-              <option value="Oregon">
-              <option value="Washington">
-      </datalist>
+      <select id="state" name="states" required>
+              <option value="Alaska">Alaska</option>
+              <option value="Arizona">Arizona</option>
+              <option value="California">California</option>
+              <option value="Hawaii">Hawaii</option>
+              <option value="Nevada">Nevada</option>
+              <option value="Oregon">Oregon</option>
+              <option value="Washington">Washington</option>
+      </select>
       <label for="zipcode">Zip Code</label><input type="text" id="zipcode" name="zipcode">
     </fieldset>
         <P>
@@ -49,7 +48,7 @@
       <div class="Q10 newsy"><input type="checkbox" id="javascript_news" name="javascript_news"><label for="javascript_news">Javascript News</label></div>
       <h4>Newsletter format</h4>
       <div class="Q11 newsy"><input type="radio" id="ftype" name="ftype"><label for="ftype">HTML</label></div>
-      <div class="Q12 newsy"><input type="radio" id="ftype2" name="ftype2"><label for="ftype2">Plain text</label></div>
+      <div class="Q12 newsy"><input type="radio" id="ftype2" name="ftype"><label for="ftype2">Plain text</label></div>
 
 <br>
       <label for="other">Other topics you'd like to hear about </label>

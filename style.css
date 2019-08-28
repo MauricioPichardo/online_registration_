@@ -123,13 +123,46 @@ input[type="text"] {
   padding-top:0;
   padding-bottom: 0;
 }
+input[type="tel"] {
+  float:right;
+  background-color: rgb(240, 240, 240);
+  border:none;
+  min-width: 300px;
+  width:90%;
+  HEIGHT:2.5REM;
+  border-radius: 3px;
+  font-style: italic;
+  text-align: right;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 10px;
+  padding-top:0;
+  padding-bottom: 0;
+}
+input[type="email"] {
+  float:right;
+  background-color: rgb(240, 240, 240);
+  border:none;
+  min-width: 300px;
+  width:90%;
+  HEIGHT:2.5REM;
+  border-radius: 3px;
+  font-style: italic;
+  text-align: right;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 10px;
+  padding-top:0;
+  padding-bottom: 0;
+}
 
-input[list] {
+select {
   display:block;
   background-color: rgb(240, 240, 240);
   float:right;
   border:none;
-  width:90%;
+  width:100%;
+
   font-size: 1.3rem;
   HEIGHT:2.5REM;
   border-radius: 3px;
@@ -199,7 +232,10 @@ textarea:focus {
 
 input[type="text"] {
     max-width:250px;}
-
-input[list] {
-      max-width:300px;}
+input[type="email"] {
+        max-width:250px;}
+input[type="tel"] {
+            max-width:250px;}
+select {
+    max-width: 357.188px;}
     }
